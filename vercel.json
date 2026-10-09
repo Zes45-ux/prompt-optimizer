@@ -7,10 +7,6 @@
     {
       "source": "/api/:path*",
       "destination": "/api/:path*"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ],
   "github": {
@@ -27,4 +23,4 @@
       "VITE_VERCEL_DEPLOYMENT": "true"
     }
   }
-} 
+}
